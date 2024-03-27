@@ -35,8 +35,14 @@ import drumbox from "./drumbox.png"
 import unreal from "./unreal.png"
 import dnandwa from "./dnandwa.jpeg"
 import defdef from "./defdef.png"
+import ml from "./maliyogame.png"
+import chrisgpt from "./chrisgpt.jpg"
+import portfolio from "./portfolio.png"
 
 export {
+  portfolio,
+  chrisgpt,
+  ml,
   logo,
   backend,
   creator,

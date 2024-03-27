@@ -66,12 +66,12 @@ const Works = () => {
       <motion.p 
       variants={fadeIn(", ", 0.1, 1)}
       className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I have worked on a variety of different projects and am always looking to learn new technologies! Some of them include a chat app that enhance security using the latest web-sockets as well as a simple e-commerce store just to showcase the React.js framework used.
-        Check out my Github for more information. 
+        I have worked on a variety of different projects and I'm always looking to learn new technologies! 
+        
         <br/>
-        Click on the github icon on every project card for the source code
+        Click on the github icon on every project card for the source code for each of my projects below
         <br/>
-        Some of my projects are:
+        
       </motion.p>
     </div>
 

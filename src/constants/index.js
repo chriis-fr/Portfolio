@@ -29,6 +29,9 @@ import {
     chrischat,
     dnandwa,
     defdef,
+    ml,
+    chrisgpt,
+    portfolio,
   } from "../assets";
   
   export const navLinks = [
@@ -226,6 +229,50 @@ import {
   
   const projects = [
     {
+      name: "Maliyo games blog concept",
+      description:
+        "Web page showcasing the games blog for Maliyo Obi, a prominent Nigerian game maker in the industry",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ml,
+      source_code_link: "https://github.com/chriis-fr/gameblog",
+      website: "https://gameblogconcept.netlify.app/"
+    },
+    {
+      name: "AI chat application",
+      description:
+        "Using Gemini api a user is able to communicate with an AI giving similar experience when communicating with chatGPT",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: chrisgpt,
+      source_code_link: "https://github.com/chriis-fr/chrisgpt",
+      website: "https://chrisgpt-alpha.vercel.app/"
+    },
+    {
       name: "Land Rover e-comm",
       description:
         "A small react app that acts as a landrover defender e-commerce store that can be further implemented",
@@ -273,6 +320,33 @@ import {
       image: chrischat,
       source_code_link: "https://github.com/chriis-fr/talkWme",
       website: "https://chrisodhiambochat.netlify.app/",
+    },
+    {
+      name: "My Portfolio",
+      description:
+        "This portfolio is an example of a web page created using 3D features and modern react technology and if you'd like a similar one feel free to reach out",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "html",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "socket.io",
+          color: "green-text-gradient",
+        }
+        
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/chriis-fr/Portfolio",
+      website: "https://chrisodhiambo.netlify.app/",
     },
     {
       name: "Car Rent",
