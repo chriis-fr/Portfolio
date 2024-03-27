@@ -2,10 +2,8 @@ import { Tilt } from "react-tilt"
 import {motion} from 'framer-motion'
 import { styles } from "../style"
 import { github } from "../assets"
-import { SectionWrapper } from "../hoc"
 import { projects } from "../constants"
 import { fadeIn, textVariant } from "../utils/motion"
-import { Link } from "react-router-dom"
 
 const ProjectCard = ({index, name, description, tags, image, source_code_link, website }) => {
   return(
@@ -39,7 +37,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, w
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
-        <div className="mt-4 flex felx-wrap gap-2">
+        <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
             <p key={tag.name} className={`text-[14px] ${tag.color}`}>
               #{tag.name}
@@ -55,7 +53,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, w
 
 const Works = () => {
   return (
-    <>
+    <div className="ml-10">
     <motion.div variants={textVariant()}>
       <p className={styles.sectionSubText}>My Work</p>
       <h2 className={styles.sectionHeadText}>Projects.</h2>
@@ -82,9 +80,9 @@ const Works = () => {
         />
       ))}
     </div>
-    </>
+    </div>
 
   )
 }
 
-export default SectionWrapper(Works, "projects")
+export default Works
