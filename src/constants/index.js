@@ -32,6 +32,8 @@ import {
     ml,
     chrisgpt,
     portfolio,
+    chrisapp,
+    decapp,
   } from "../assets";
   
   export const navLinks = [
@@ -229,6 +231,50 @@ import {
   ];
   
   const projects = [
+    {
+      name: "WhatsApp clone (ChrisApp)",
+      description:
+        "A whatsapp application that integrates AI and when called can answer any questions in the group-chat without having to source information elsewhere.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: chrisapp,
+      source_code_link: "https://github.com/chriis-fr/whatsapp-AI",
+      website: "https://github.com/chriis-fr/whatsapp-AI"
+    },
+    {
+      name: "BlockChain Decentralized Bank application",
+      description:
+        "A small bank-like application based on smart contracts that has no intermediaries hence uses the blockchain computin to manage transactions which is more safe and secure for users and protecting their data",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Motoko",
+          color: "green-text-gradient",
+        },
+        {
+          name: "EJS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: decapp,
+      source_code_link: "https://github.com/chriis-fr",
+      website: "https://github.com/chriis-fr"
+    },
     {
       name: "Maliyo games blog concept",
       description:

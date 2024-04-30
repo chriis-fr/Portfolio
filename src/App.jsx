@@ -32,12 +32,13 @@ const App = () => {
         <Suspense fallback={<div>Loading...</div>}>
           <LazyAbout />
           <LazyExperience />
-          <LazyTech />
+          
           <LazyWorks />
           <LazyFeedbacks />
           <div className='relative z-0'>
             <LazyContact />
             <StarsCanvas />
+            <LazyTech />
           </div>
         </Suspense>
       </div>

@@ -49,6 +49,8 @@ const About = () => {
       >
         I am a Javascript developer with expertise in frameworks such as React.js, Node,js, Express as well as the associated non-SQL and SQL databases that i can implement into creating user interfaces, application both movile and web applications to suit your needs and requirements.
         <br/>
+        I develop blockchain smart contract on the internet computer and DApps as well using Solana and motoko blockchain intergrations.
+        <br />
         I am also a game developer that can make triple-A game levels using the Unreal engine and simple 2D games using phaser and HTML-5.
       </motion.p>
 

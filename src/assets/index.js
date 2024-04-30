@@ -38,8 +38,12 @@ import defdef from "./defdef.png"
 import ml from "./maliyogame.png"
 import chrisgpt from "./chrisgpt.jpg"
 import portfolio from "./portfolio.png"
+import chrisapp from "./myapp8.jpg"
+import decapp from "./decapp.jpg"
 
 export {
+  decapp,
+  chrisapp,
   portfolio,
   chrisgpt,
   ml,

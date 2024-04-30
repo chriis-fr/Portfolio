@@ -16,12 +16,12 @@ const Hero = () => {
              // eslint-disable-next-line react/no-unescaped-entities
              >Hey🙋🏾‍♂️,&nbsp; I'm <span className='text-[#915eff]'>Chris</span></h1>
              <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-              A Full Stack Web Developer 
+              A Full Stack Web and Web3 blockchain developer 
              </p>
           </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       <div className='absolute xs:bottom-10 bottom 32 w-full flex justify-center items-center'>
         <a href='#about'>
