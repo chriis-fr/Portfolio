@@ -248,10 +248,14 @@ import {
           name: "css",
           color: "pink-text-gradient",
         },
+        {
+          name: "gemini-AI",
+          color: "green-text-gradient",
+        }
       ],
       image: chrisapp,
       source_code_link: "https://github.com/chriis-fr/whatsapp-AI",
-      website: "https://github.com/chriis-fr/whatsapp-AI"
+      website: "https://chrisapp.vercel.app"
     },
     {
       name: "BlockChain Decentralized Bank application",
