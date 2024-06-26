@@ -34,6 +34,8 @@ import {
     portfolio,
     chrisapp,
     decapp,
+    x,
+    gabriel,
   } from "../assets";
   
   export const navLinks = [
@@ -140,7 +142,7 @@ import {
       company_name: "self",
       icon: reactjs,
       iconBg: "#383E56",
-      date: "December 2022 - current date",
+      date: "2019 - current date",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
@@ -153,7 +155,7 @@ import {
       company_name: "self",
       icon: nodejs,
       iconBg: "#E6DEDD",
-      date: "December 2022 - current date",
+      date: "2019 - current date",
       points: [
         "Developing web applications using Node.js and other server-based related technologies.",
         "Creating APIs for data management and manipulation.",
@@ -166,7 +168,7 @@ import {
       company_name: "self",
       icon: html,
       iconBg: "#383E56",
-      date: "December 2022 - current date",
+      date: "2019 - current date",
       points: [
         "Developing web-applications that use the latest technologies like frameworks and web-sockets for real-time communications",
         "Designing and developing websites from scratch using HTML/CSS/JS.",
@@ -179,7 +181,7 @@ import {
       company_name: "self",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "December 2022 - current date",
+      date: "2019 - current date",
       points: [
         "Developing and maintaining web applications using React.js, Node.js and Next.js",
         "Creating APIs for data management and manipulation.",
@@ -189,16 +191,15 @@ import {
       ],
     },
     {
-      title: "Game Development",
-      company_name: "self",
+      title: "BlockChain Developer",
+      company_name: "Celo, Eth, Sol",
       icon: unreal,
       iconBg: "#E6DEDD",
       date: "June 2023 - current date",
       points: [
-        "Using Unreal Engine to create games on PC and mobile platforms.",
-        "Implementing game logic and mechanics",
-        "Collaborated with artists to design characters and environments",
-        "Using phaser and HTML-5 to create interactive games and worlds"
+        "Building trust by creating smart contracts on Solidity and TypeScript.",
+        "Implementing blockchain platforms and integrations with various APIs", 
+        "Collaborated with various blockchains to build dApps.",
       ],
     },
   ];
@@ -215,10 +216,10 @@ import {
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Chris does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      name: "Gabriel",
+      designation: "Backend Engineer",
+      company: "HoneyCoing",
+      image: gabriel,
     },
     {
       testimonial:
@@ -232,20 +233,20 @@ import {
   
   const projects = [
     {
-      name: "WhatsApp clone (ChrisApp)",
+      name: "AI WhatsApp clone (ChrisApp)",
       description:
         "A whatsapp application that integrates AI and when called can answer any questions in the group-chat without having to source information elsewhere.",
       tags: [
         {
-          name: "html",
+          name: "Nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "javascript",
+          name: "Typescript",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
         {
@@ -256,6 +257,32 @@ import {
       image: chrisapp,
       source_code_link: "https://github.com/chriis-fr/whatsapp-AI",
       website: "https://chrisapp.vercel.app"
+    },
+    {
+      name: "X-Clone/ Twitter app",
+      description:
+        "A twiiter clone or X app made using react, mongo and express. Allows users to login, signup and post their views and comments on certain issues. Similar to the known app, it has all the basic functionalities of a social media application on the internet.",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "mongoDb",
+          color: "green-text-gradient",
+        }
+      ],
+      image: x,
+      source_code_link: "https://github.com/chriis-fr/x-clone",
+      website: "https://chris-x.onrender.com"
     },
     {
       name: "BlockChain Decentralized Bank application",

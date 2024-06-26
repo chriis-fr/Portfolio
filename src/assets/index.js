@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import x from "./x.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -40,8 +40,11 @@ import chrisgpt from "./chrisgpt.jpg"
 import portfolio from "./portfolio.png"
 import chrisapp from "./myapp8.jpg"
 import decapp from "./decapp.jpg"
+import gabriel from "./gabriel.jpg"
 
 export {
+  gabriel,
+  x,
   decapp,
   chrisapp,
   portfolio,

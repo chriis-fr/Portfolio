@@ -47,11 +47,11 @@ const About = () => {
       <motion.p variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a Javascript developer with expertise in frameworks such as React.js, Node,js, Express as well as the associated non-SQL and SQL databases that i can implement into creating user interfaces, application both movile and web applications to suit your needs and requirements.
+        I am a full-stack Web2 and Web3 developer with expertise in JavaScript frameworks such as React.js, Node.js, and Express. I specialize in creating dynamic user interfaces and robust applications for both web and mobile platforms, utilizing SQL and NoSQL databases to meet your specific requirements
         <br/>
-        I develop blockchain smart contract on the internet computer and DApps as well using Solana and motoko blockchain intergrations.
+        Additionally, I develop blockchain smart contracts on the Internet Computer, and build decentralized applications (DApps) using Solana and Motoko integrations. 
         <br />
-        I am also a game developer that can make triple-A game levels using the Unreal engine and simple 2D games using phaser and HTML-5.
+        My skill set also includes proficiency in the MERN stack and emerging technologies like Rust and ICP, ensuring innovative and comprehensive solutions for your digital needs.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
