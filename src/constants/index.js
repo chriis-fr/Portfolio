@@ -43,6 +43,7 @@ import {
     onerampimg,
     utility,
     mobileapp,
+    warblersite,
   } from "../assets";
   
   export const navLinks = [
@@ -400,6 +401,32 @@ import {
       website: "https://chrisapp.vercel.app"
     },
     {
+      name: "Warbler Consulting",
+      description:
+        "Web portal for warbler consulting law firm where users interact with the firm and are able to send and receive quotation and feedback",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Calendly",
+          color: "green-text-gradient",
+        }
+      ],
+      image: warblersite,
+      source_code_link: "https://github.com/chriis-fr/warbler",
+      website: "https://warblerconsulting.com"
+    },
+    {
       name: "X-Clone/ Twitter app",
       description:
         "A twiiter clone or X app made using react, mongo and express. Allows users to login, signup and post their views and comments on certain issues. Similar to the known app, it has all the basic functionalities of a social media application on the internet.",
@@ -446,28 +473,6 @@ import {
       image: decapp,
       source_code_link: "https://github.com/chriis-fr",
       website: "https://github.com/chriis-fr"
-    },
-    {
-      name: "Warbler Consultancy",
-      description:
-        "Law firm page that signs and creates quotes on behalf of the company",
-      tags: [
-        {
-          name: "reactjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "nextjs",
-          color: "green-text-gradient",
-        },
-        {
-          name: "nodejs",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: ml,
-      source_code_link: "https://github.com/chriis-fr/warbler",
-      website: "https://warblerconsulting.com/"
     },
     {
       name: "Maliyo games blog concept",
