@@ -25,7 +25,7 @@ import {
     threejs,
     wastetime,
     drumbox,
-    unreal,
+    // unreal,
     chrischat,
     dnandwa,
     defdef,
@@ -36,6 +36,13 @@ import {
     decapp,
     x,
     gabriel,
+    // nextjs,
+    oneramp,
+    warbler,
+    metamask,
+    onerampimg,
+    utility,
+    mobileapp,
   } from "../assets";
   
   export const navLinks = [
@@ -138,6 +145,46 @@ import {
   
   const experiences = [
     {
+      title: "NextJs 15 App Developer",
+      company_name: "ONERAMP",
+      icon: oneramp,
+      iconBg: "white",
+      date: "June 2024 - May 2025",
+      points: [
+        "Establishing payment gateways for users across sub-saharan Africa.",
+        "Enhancing user friendly flow in the application for seamless transactions",
+        "Reviewing codebase and eliminating bugs causing security, data and transaction issues.",
+        "Ensuring wallet coneect issues and balances are correctly processed in the application",
+        "Optimising the app in the web to use less memory and storage due to different devices"
+      ],
+    },
+    {
+      title: "(EXPO) React-Native Mobile Developer",
+      company_name: "ONERAMP",
+      icon: reactjs,
+      iconBg: "white",
+      date: "Nov 2024 - May 2025",
+      points: [
+        "Built a cross platform mobile application wallet ",
+        "Using mobile development principals to ensure a seamless app and UI/UX on all mobile operating systems",
+        "Eliminating bugs in Expo dependencies in android devices",
+        "Optimized the app to follow guidelines required by app store and google play",
+        "Ensuring security in the mobile app and eliminating previous data leaks."
+      ],
+    },
+    {
+      title: "React Web App Developer",
+      company_name: "warbler consulting",
+      icon: warbler,
+      iconBg: "white",
+      date: "2025",
+      points: [
+        "Establishing an online platform for the law firm ",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Implementing software solutions for warbler consulting",
+      ],
+    },
+    {
       title: "React.js Developer",
       company_name: "self",
       icon: reactjs,
@@ -148,6 +195,32 @@ import {
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
         "Always learing and sharpening my skills on a daily basis"
+      ],
+    },
+    {
+      title: "BlockChain Developer",
+      company_name: "BTC,Celo, Eth, Sol",
+      icon: metamask,
+      iconBg: "#E6DEDD",
+      date: "June 2023 - current date",
+      points: [
+        "Contributing to open source projects like Stacks-BTC ",
+        "Building trust by creating smart contracts on Solidity and TypeScript.",
+        "Implementing blockchain platforms and integrations with various APIs", 
+        "Collaborated with various blockchains to build dApps.",
+      ],
+    },
+    {
+      title: "Vanilla React Developer",
+      company_name: "INVESTA FARM",
+      icon: reactjs,
+      iconBg: "#383E56",
+      date: "2024 - current date",
+      points: [
+        "Lead frontend Developer at Investa Farm",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback colleagues.",
+        "Redesign and implement the frontend of the application fro users across the country"
       ],
     },
     {
@@ -190,50 +263,118 @@ import {
         "Integration of third party services like Google Maps API and Firebase Authentication."
       ],
     },
-    {
-      title: "BlockChain Developer",
-      company_name: "Celo, Eth, Sol",
-      icon: unreal,
-      iconBg: "#E6DEDD",
-      date: "June 2023 - current date",
-      points: [
-        "Building trust by creating smart contracts on Solidity and TypeScript.",
-        "Implementing blockchain platforms and integrations with various APIs", 
-        "Collaborated with various blockchains to build dApps.",
-      ],
-    },
   ];
   
   const testimonials = [
+    
     {
       testimonial:
-        "A very hardworking man and very passionate eqipued with the right skills for whatever task you have for him. keep it up!!",
+        "After Chris optimized our Applications, our traffic increased by 50% across five different countries",
+      name: "Jovan Mwesigwa",
+      designation: "Co-founder",
+      company: "Oneramp",
+      image: "https://th.bing.com/th/id/OIP.bV1NhFF6j2ZrZrcykCv_CgAAAA?w=178&h=180&c=7&pcl=292827&r=0&o=5&dpr=2&pid=1.7",
+    },
+    {
+      testimonial:
+        "I've never met a developer who truly cares about their clients' success like Chris does.",
+      name: "Gabriel",
+      designation: "Backend Engineer",
+      company: "HoneyCoin",
+      image: gabriel,
+    },
+    {
+      testimonial:
+        "Upskiller! Great choice",
       name: "David Nandwa",
       designation: "CEO",
       company: "HoneyCoin",
       image: dnandwa,
     },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Chris does.",
-      name: "Gabriel",
-      designation: "Backend Engineer",
-      company: "HoneyCoing",
-      image: gabriel,
-    },
-    {
-      testimonial:
-        "After Chris optimized our website, our traffic increased by 50%. We can't thank him enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    
   ];
   
   const projects = [
     {
-      name: "AI WhatsApp clone (ChrisApp)",
+      name: "OneRamp-widget",
+      description:
+        "Multi-chain Web App used to onramp and offramp crypto currency to mobile money in various african countries",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Starknet",
+          color: "green-text-gradient",
+        }
+      ],
+      image: onerampimg,
+      source_code_link: "https://github.com/oneramp",
+      website: "https://pay.oneramp.io"
+    },
+    {
+      name: "OneRamp-Utility",
+      description:
+        "App allowing users in kenya to pay funds to mpesa till merchants and paybill accounts using stable coins on starknet network",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Startknet",
+          color: "green-text-gradient",
+        }
+      ],
+      image: utility,
+      source_code_link: "https://github.com/chriis-fr",
+      website: "https://utilities.oneramp.io"
+    },
+    {
+      name: "OneRamp mobile app",
+      description:
+        "The oneramp cross-platform mobile applicatiion that serves as a multichain wallet to facilitate transactions between local mobile money and crypto-currency stable coins",
+      tags: [
+        {
+          name: "React Native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind-nativewind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Blockchain-multichain",
+          color: "green-text-gradient",
+        }
+      ],
+      image: mobileapp,
+      source_code_link: "https://github.com/chriis-fr/whatsapp-AI",
+      website: "https://linkedin.com/in/chrisodhiambo"
+    },
+    {
+      name: "AI WhatsApp clone",
       description:
         "A whatsapp application that integrates AI and when called can answer any questions in the group-chat without having to source information elsewhere.",
       tags: [
@@ -287,7 +428,7 @@ import {
     {
       name: "BlockChain Decentralized Bank application",
       description:
-        "A small bank-like application based on smart contracts that has no intermediaries hence uses the blockchain computin to manage transactions which is more safe and secure for users and protecting their data",
+        "A minimal bank-like application based on smart contracts that has no intermediaries hence uses the blockchain computin to manage transactions which is more safe and secure for users and protecting their data",
       tags: [
         {
           name: "React",
@@ -305,6 +446,28 @@ import {
       image: decapp,
       source_code_link: "https://github.com/chriis-fr",
       website: "https://github.com/chriis-fr"
+    },
+    {
+      name: "Warbler Consultancy",
+      description:
+        "Law firm page that signs and creates quotes on behalf of the company",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nextjs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ml,
+      source_code_link: "https://github.com/chriis-fr/warbler",
+      website: "https://warblerconsulting.com/"
     },
     {
       name: "Maliyo games blog concept",

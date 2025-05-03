@@ -20,6 +20,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.png";
+import warbler from "./tech/warbler3.png"
+import utility from "./utility.png"
+import mobileapp from "./mobileapp.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -41,6 +45,10 @@ import portfolio from "./portfolio.png"
 import chrisapp from "./myapp8.jpg"
 import decapp from "./decapp.jpg"
 import gabriel from "./gabriel.jpg"
+import oneramp from "./tech/onefav.jpg"
+import metamask from "./metamask.png"
+import warblersite from "./warblersite.png"
+import onerampimg from "./oneramp.png"
 
 export {
   gabriel,
@@ -49,12 +57,15 @@ export {
   chrisapp,
   portfolio,
   chrisgpt,
+  onerampimg,
   ml,
+  nextjs,
   logo,
   backend,
   creator,
   mobile,
   web,
+  warblersite,
   github,
   menu,
   close,
@@ -63,11 +74,15 @@ export {
   figma,
   git,
   html,
+  metamask,
   javascript,
   mongodb,
   nodejs,
+  mobileapp,
   reactjs,
   redux,
+  utility,
+  oneramp,
   tailwind,
   typescript,
   threejs,
@@ -77,6 +92,7 @@ export {
   tesla,
   carrent,
   jobit,
+  warbler,
   tripguide,
   wastetime,
   drumbox,

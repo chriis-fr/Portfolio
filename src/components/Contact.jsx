@@ -6,6 +6,7 @@ import { EarthCanvas } from "./canvas"
 import { SectionWrapper } from "../hoc"
 import { slideIn } from "../utils/motion"
 
+
 //public key: FsIN3nFT0sPNip7lQ
 //tempelate id: template_eskme2t
 // service id: service_lmvdy2b
@@ -24,12 +25,19 @@ const Contact = () => {
     setForm({...form, [name]: value})
   }
 
+  const serviceId = import.meta.env.VITE_SERVICE
+  const pubkey = import.meta.env.VITE_PUBLIC
+
   const handleSubmit = (e) => {
     e.preventDefault()
     setLoading(true);
 
+    console.log(serviceId, pubkey)
+
+    
+
     emailjs.send(
-      'service_lmvdy2b', 
+      serviceId, 
       'template_eskme2t',
       {
         from_name: form.name,
@@ -38,7 +46,7 @@ const Contact = () => {
         to_email: 'caspianodhis@gmail.com',
         message: form.message,
       },
-      'FsIN3nFT0sPNip7lQ'
+      pubkey
       )
       .then(() => {
         setLoading(false)
@@ -52,7 +60,7 @@ const Contact = () => {
       }, (error) => {
         setLoading(false)
         console.log(error)
-        alert('sorry:( spmething went wrong')
+        alert('sorry:( something went wrong')
       })
   }
 
